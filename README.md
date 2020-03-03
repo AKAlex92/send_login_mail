@@ -4,7 +4,7 @@ It is really helpful to log every ssh access done from a specific user and its l
 ## Required packages
 If you use your own server as SMTP server to send emails, you need to have the required packages to do so.
 ## Email's sample output
-![Example_Output](https://github.com/AKAlex92/send_login_mail/blob/master/Annotazione%202020-03-03%20124304.png)
+![Example_Output](https://github.com/AKAlex92/send_login_mail/blob/master/src_README/Sample_output.png)
 ## How to setup the script
 First of all you need to setup the configuration file **login_email_conf.ini** with the needed parameters
 * API_ACCESS_KEY: the API key used for the geolocalization service (in our case https://ipstack.com/).  
