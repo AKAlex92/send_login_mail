@@ -1,0 +1,31 @@
+<html>
+<head>
+	<style>
+		table {
+		    border-collapse: collapse;
+		    width: 100%;
+		}
+
+		table, th, td {
+		    border: 1px solid black;
+		    text-align: left;
+		    padding: 15px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<strong>Logged into $hostname in date $logintime</strong>
+		<div style="overflow-x:auto;"> 
+			<table>
+				<tr>
+					<th>IP</th><th>LON</th><th>LAT</th><th>COUNTRY</th><th>CITY</th><th>ZIPCODE</th>
+				</tr>
+				<tr>
+					<td>$ip</td><td>$latitude</td><td>$longitude</td><td><img src='$country_flag' width='50'> $country_name</td><td>$city</td><td>$zip_code</td>
+				</tr>
+			</table>
+		</div>		
+	</center>
+</body>
+</html>
