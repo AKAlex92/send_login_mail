@@ -2,7 +2,9 @@
 This script is used for sending an email with geolocalization.  
 It is really helpful to log every ssh access done from a specific user and its location if launched in combo when a specific user login via ssh on the server.
 ## Required packages
-Roba per smtp (solo se si vuole utilizzare il server stesso per inviare le email)
+If you use your own server as SMTP server to send emails, you need to have the required packages to do so.
+## Output example
+
 ## How to setup the script
 First of all you need to setup the configuration file **login_email_conf.ini** with the needed parameters
 * API_ACCESS_KEY: the API key used for the geolocalization service (in our case https://ipstack.com/).  
