@@ -1,6 +1,6 @@
 # send_login_mail
 This script is used for sending an email with geolocalization.  
-It is really helpful to log every ssh access done from a specific user and its location if launched in combo when a specific user login via ssh on the server.
+If launched in combo when a specific user login via ssh on the server, it is really helpful to track the login position by the user.
 ## Required packages
 If you use your own server as SMTP server to send emails, you need to have the required packages to do so.
 ## Email's sample output
